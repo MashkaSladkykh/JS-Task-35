@@ -1,6 +1,6 @@
 let $left = 0;
 
-$('body').click(() => {
+$('.square').click(() => {
     let interval = setInterval(() => {
         if ($left == 1099) {
             clearInterval(interval);
