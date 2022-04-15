@@ -1,5 +1,5 @@
 let $left = 0;
-let $width = window.innerWidth - 100;
+let $width = window.innerWidth - 101;
 
 
 $('.square').click(() => {
