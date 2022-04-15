@@ -1,8 +1,10 @@
 let $left = 0;
+let $width = window.innerWidth - 100;
+
 
 $('.square').click(() => {
     let interval = setInterval(() => {
-        if ($left == 1099) {
+        if ($left == $width) {
             clearInterval(interval);
         }
         $left = $left + 1;
@@ -10,5 +12,5 @@ $('.square').click(() => {
             "left": $left + "px"
         });
 
-    }, 10);
-})
+    }, 1);
+}) 
